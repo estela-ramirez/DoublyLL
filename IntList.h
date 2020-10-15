@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 using namespace std;
 
@@ -9,9 +10,8 @@ struct IntNode {
 };
 
 class IntList{
-
-    public:
     
+    public:
         IntList();
 
         void push_front(int value);
@@ -29,7 +29,6 @@ class IntList{
         void printReverse();
 
         ~IntList();
-
 
     private:
         IntNode * dummyHead;
